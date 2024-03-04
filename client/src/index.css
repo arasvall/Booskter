@@ -1,0 +1,146 @@
+/* Start page*/ 
+.start-page{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5em;
+}
+
+.sign-out-btn, .login-btn, .register-btn{
+  color: black;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: .1em;
+  font-size: 1.1em;
+  margin: .3em;
+}
+.sign-out-btn{
+  width: 5em;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: .3em;
+  padding: .1em .2em .1em .2em;
+}
+.login-btn, .register-btn{
+  width: 5em;
+  border: 1px solid black;
+  border-radius: .3em;
+  text-align: center;
+  padding: .1em .2em .1em .2em;
+}
+
+.welcome-txt{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;
+}
+
+.role-txt{
+  margin: .2em;
+}
+
+.dashboard-btn{
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  width: 9em;
+  border-radius: .3em;
+  padding: .1em;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1em;
+}
+
+.all-books{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(203, 203, 203);
+  padding: .5em 0;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  display: flex;
+}
+
+.books-title, .books-author, .books-qty{
+  width: 33%;
+  text-align: center;
+} 
+
+/* LOGIN */ 
+.form{
+  width: 40%;
+  background-color: gray;
+  padding: 2em 3em 15em 3em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: .5em;
+}
+.login-page, .register-page{
+  display: flex;
+  justify-content: center;
+}
+.username-label, .password-label{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 1em;
+}
+.input-login, .input-register{
+  padding: .5em 4em .5em 1em;
+  border: 1px solid black;
+  border-radius: .2em;
+}
+.input-field{
+  margin: 1em ;
+}
+.btn-login, .btn-cancel-login, .btn-register, .btn-cancel-register{
+  padding: 1em;
+  margin: 1em;
+}
+
+/* DASHBOARD */
+.dash-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dash-h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
+}
+.dash-books{
+  padding: 2em;
+}
+.label{
+  font-size: 1.5em;
+}
+.input{
+  padding: .6em 1em;
+}
+.add-books-page{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.add-btn, .cancel-books{
+  padding: 1em;
+  width: 40%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid black;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.edit-btn, .delete-btn{
+  margin: .2em;
+} 
+
+
